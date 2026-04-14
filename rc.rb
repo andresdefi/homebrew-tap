@@ -7,24 +7,24 @@ class Rc < Formula
   on_macos do
     on_intel do
       url "https://github.com/andresdefi/Revenue-Cat-CLI/releases/download/v0.2.0/rc_0.2.0_darwin_amd64.tar.gz"
-      sha256 "717d2e2359a5d36a28f37b60d5f42aa6c794b20fce08a3dfc18d6511186ba3ea"
+      sha256 "c238e3c0ad9ce01a4c0300835813106fb70ac163accd63578e5852ad7e6e44cf"
     end
 
     on_arm do
       url "https://github.com/andresdefi/Revenue-Cat-CLI/releases/download/v0.2.0/rc_0.2.0_darwin_arm64.tar.gz"
-      sha256 "87d534fceb315fe976b67f3c188ade07d26c4ef8327d9b4bb9af2f52d17b7bc5"
+      sha256 "8374421c156b9ef5ffd56fbf1117f45f68fb1fefb567acb35683503e5abb7164"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/andresdefi/Revenue-Cat-CLI/releases/download/v0.2.0/rc_0.2.0_linux_amd64.tar.gz"
-      sha256 "b88c326b2863dae4dfa883be1beea78ba64d32fd28abd06e3cbe7f9c148d549c"
+      sha256 "604b440d16ee1c47dc25b4d4bd5535f0881d7c31f1f127f8c7351b2c688c369a"
     end
 
     on_arm do
       url "https://github.com/andresdefi/Revenue-Cat-CLI/releases/download/v0.2.0/rc_0.2.0_linux_arm64.tar.gz"
-      sha256 "264219a207e620c1d7fa3c616338b912633ee602b703bb90a51cf35edb84b5a2"
+      sha256 "0393d8f6701c9247b1543d870ca40064648b7cec3595671dba3a396440f9241b"
     end
   end
 
