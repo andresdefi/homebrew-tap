@@ -1,30 +1,30 @@
 class Rc < Formula
   desc "Unofficial CLI for the RevenueCat REST API v2"
   homepage "https://github.com/andresdefi/Revenue-Cat-CLI"
-  version "0.1.0"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/andresdefi/Revenue-Cat-CLI/releases/download/v0.1.0/Revenue-Cat-CLI_0.1.0_darwin_amd64.tar.gz"
-      sha256 "cd538cb355eadc324ae2307a7446bc012be402a0b86047a5b3c35fa240b22d5e"
+      url "https://github.com/andresdefi/Revenue-Cat-CLI/releases/download/v0.2.0/rc_0.2.0_darwin_amd64.tar.gz"
+      sha256 "717d2e2359a5d36a28f37b60d5f42aa6c794b20fce08a3dfc18d6511186ba3ea"
     end
 
     on_arm do
-      url "https://github.com/andresdefi/Revenue-Cat-CLI/releases/download/v0.1.0/Revenue-Cat-CLI_0.1.0_darwin_arm64.tar.gz"
-      sha256 "8b22407f7695b07dc016f41fef3233f3aef1e695f58a4e4f16f1a901a7586e64"
+      url "https://github.com/andresdefi/Revenue-Cat-CLI/releases/download/v0.2.0/rc_0.2.0_darwin_arm64.tar.gz"
+      sha256 "87d534fceb315fe976b67f3c188ade07d26c4ef8327d9b4bb9af2f52d17b7bc5"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/andresdefi/Revenue-Cat-CLI/releases/download/v0.1.0/Revenue-Cat-CLI_0.1.0_linux_amd64.tar.gz"
-      sha256 "6eb8fa1e165ffcfcdc354f813e50eb4671ae250dfa22245762986a2057547fa0"
+      url "https://github.com/andresdefi/Revenue-Cat-CLI/releases/download/v0.2.0/rc_0.2.0_linux_amd64.tar.gz"
+      sha256 "b88c326b2863dae4dfa883be1beea78ba64d32fd28abd06e3cbe7f9c148d549c"
     end
 
     on_arm do
-      url "https://github.com/andresdefi/Revenue-Cat-CLI/releases/download/v0.1.0/Revenue-Cat-CLI_0.1.0_linux_arm64.tar.gz"
-      sha256 "f0c010fcbf5e3e2547f8ed89516e0dd5399e7bf4540449785af7338b2fbfce50"
+      url "https://github.com/andresdefi/Revenue-Cat-CLI/releases/download/v0.2.0/rc_0.2.0_linux_arm64.tar.gz"
+      sha256 "264219a207e620c1d7fa3c616338b912633ee602b703bb90a51cf35edb84b5a2"
     end
   end
 
